@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "b08bd411-5cc3-4b30-88f4-91a7481abc47")
 	(paper "A4")
+	(title_block
+		(title "ModuCard Base Module (Update!)")
+		(date "Update!")
+		(rev "1.0")
+		(comment 1 "Wojciech Szafrański")
+		(comment 2 "DESIGNED IN POLAND")
+	)
 	(lib_symbols
 		(symbol "0402,10nF_1"
 			(pin_numbers
@@ -3250,7 +3257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fe8d20e-8461-4d6b-af52-1946a761eb33")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR01606"
 			(at 168.91 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3310,7 +3317,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "#PWR018")
+					(reference "#PWR01606")
 					(unit 1)
 				)
 			)
@@ -3327,7 +3334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17c5a855-7c05-4539-b4c0-ac0a04cb42aa")
-		(property "Reference" "#PWR0800"
+		(property "Reference" "#PWR01604"
 			(at 143.51 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3387,7 +3394,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "#PWR0800")
+					(reference "#PWR01604")
 					(unit 1)
 				)
 			)
@@ -3406,7 +3413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4051e3c8-8cec-4b9a-8712-9af501162675")
-		(property "Reference" "R7"
+		(property "Reference" "R1601"
 			(at 100.33 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3656,7 +3663,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "R7")
+					(reference "R1601")
 					(unit 1)
 				)
 			)
@@ -3674,7 +3681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5aba4285-41c9-4edb-94a5-b92c551fc2ec")
-		(property "Reference" "#PWR0803"
+		(property "Reference" "#PWR01603"
 			(at 133.35 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3734,7 +3741,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "#PWR0803")
+					(reference "#PWR01603")
 					(unit 1)
 				)
 			)
@@ -3752,7 +3759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e0f2f18-e532-478f-965c-0f36879877cc")
-		(property "Reference" "#PWR0802"
+		(property "Reference" "#PWR01605"
 			(at 158.75 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3812,7 +3819,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "#PWR0802")
+					(reference "#PWR01605")
 					(unit 1)
 				)
 			)
@@ -3831,7 +3838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7eb81a6e-fdad-4a3e-acd6-ef7fae4e1794")
-		(property "Reference" "R9"
+		(property "Reference" "R1603"
 			(at 139.7 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4081,7 +4088,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "R9")
+					(reference "R1603")
 					(unit 1)
 				)
 			)
@@ -4099,7 +4106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85a91040-b440-4d8a-8e7d-b2c60dc34755")
-		(property "Reference" "U401"
+		(property "Reference" "U1601"
 			(at 162.56 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4177,7 +4184,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "U401")
+					(reference "U1601")
 					(unit 1)
 				)
 			)
@@ -4196,7 +4203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "999ba31d-cba4-46e1-a231-70a4a5767a97")
-		(property "Reference" "C7"
+		(property "Reference" "C1601"
 			(at 107.95 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4414,7 +4421,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "C7")
+					(reference "C1601")
 					(unit 1)
 				)
 			)
@@ -4431,10 +4438,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db81074f-ff70-4c35-8cf5-fa8fd24fa01e")
-		(property "Reference" "R8"
-			(at 135.89 106.6799 0)
+		(property "Reference" "R1602"
+			(at 128.27 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4683,7 +4689,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "R8")
+					(reference "R1602")
 					(unit 1)
 				)
 			)
@@ -4701,7 +4707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0f70ca-94c5-4147-808c-75db8dd1d921")
-		(property "Reference" "C800"
+		(property "Reference" "C1602"
 			(at 146.05 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4919,7 +4925,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "C800")
+					(reference "C1602")
 					(unit 1)
 				)
 			)
@@ -4937,7 +4943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df5b8e29-71fe-4652-82ea-ba12a1f4d9d2")
-		(property "Reference" "#PWR0804"
+		(property "Reference" "#PWR01602"
 			(at 105.41 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4997,7 +5003,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "#PWR0804")
+					(reference "#PWR01602")
 					(unit 1)
 				)
 			)
@@ -5015,7 +5021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0c94553-71cb-4a2c-8644-189768d52d64")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01601"
 			(at 158.75 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -5075,7 +5081,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "#FLG02")
+					(reference "#FLG01601")
 					(unit 1)
 				)
 			)
@@ -5092,7 +5098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9769d05-7f47-4986-9bf0-66e1093661d9")
-		(property "Reference" "#PWR0808"
+		(property "Reference" "#PWR01601"
 			(at 97.79 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5152,7 +5158,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "#PWR0808")
+					(reference "#PWR01601")
 					(unit 1)
 				)
 			)
@@ -5170,7 +5176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffeeb280-bda9-4839-bf26-78d431c9b215")
-		(property "Reference" "J800"
+		(property "Reference" "J1601"
 			(at 105.41 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5288,7 +5294,7 @@
 		(instances
 			(project "MCS3-BM3-F405"
 				(path "/187df4e0-df79-41f9-aa96-6168b723deb6/6b306d50-10f6-4520-bb51-d29b32de8351"
-					(reference "J800")
+					(reference "J1601")
 					(unit 1)
 				)
 			)

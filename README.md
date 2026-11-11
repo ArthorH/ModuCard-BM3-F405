@@ -1,0 +1,1 @@
+# Base module (Card) template project for ModuCard System
